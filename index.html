@@ -9,64 +9,66 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <section>
+    <section class="bg-dark text-light">
+        <header>
             <div class="container">
-                <div class="row">
-                    <div class="col">START BOOTSTRAP</div>
-                    <ul class="col">
-                        <li>PORTFOLIO</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-auto">START BOOTSTRAP</div>
+                    <ul class="col-auto">
+                        <li class="d-none d-md-inline-block">PORTFOLIO</li>
+                        <li class="d-none d-md-inline-block">ABOUT</li>
+                        <li class="d-none d-md-inline-block">CONTACT</li>
+                        <li class="d-md-none"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </section>
     </header>
+    </section>
+    
 
     <main>
         <section>
             <div class="container">
-                <div class="row">
-                    <img src="./img/avatar.svg" alt="">
-                    <h1>START BOOTSTRAP</h1>
-                    <span>
+                <div class="row ">
+                    <img src="./img/avatar.svg" alt="" height="200px">
+                    <h1 class="text-center">START BOOTSTRAP</h1>
+                    <p class="text-center">
                         <i class="fa-solid fa-star"></i>
-                    </span>
-                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </p>
+                    <p class="text-center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
         </section>
 
         <section>
             <div class="container">
-                <h2>PORTFOLIO</h2>
-                <span>
+                <h2 class="text-center">PORTFOLIO</h2>
+                <p class="text-center">
                     <i class="fa-solid fa-star"></i>
-                </span>
+                </p>
                 <div class="row">
-                   <div class="col">
-                     <img src="./img/cabin.png" alt="">
+                   <div class="col-4">
+                     <img src="./img/cabin.png" alt="" width="400px" class="rounded">
                    </div>
-
-                   <div class="col">
-                     <img src="./img/cake.png" alt="">
+    
+                   <div class="col-4">
+                     <img src="./img/cake.png" alt="" width="400px" class="rounded">
                    </div>
-
-                   <div class="col">
-                    <img src="./img/circus.png" alt="">
+    
+                   <div class="col-4">
+                    <img src="./img/circus.png" alt="" width="400px" class="rounded">
                    </div>
-
-                   <div class="col">
-                    <img src="./img/game.png" alt="">
+    
+                   <div class="col-4">
+                    <img src="./img/game.png" alt="" width="400px" class="rounded">
                    </div>
-
-                   <div class="col">
-                    <img src="./img/safe.png" alt="">
+    
+                   <div class="col-4">
+                    <img src="./img/safe.png" alt="" width="400px" class="rounded">
                    </div>
-
-                   <div class="col">
-                    <img src="./img/submarine.png" alt="">
+    
+                   <div class="col-4">
+                    <img src="./img/submarine.png" alt="" width="400px" class="rounded">
                    </div>
                 </div>
             </div>  
@@ -74,19 +76,23 @@
 
         <section>
             <div class="container">
-                <h2>ABOUT</h2>
-                <span>
+                <h2 class="text-center">ABOUT</h2>
+                <p class="text-center">
                     <i class="fa-solid fa-star"></i>
-                </span>
+                </p>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-6 p-5">
                         Freelancer is a free bootstrap theme created by Start Boostrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
                     </div>
-                    <div class="col">
+                    <div class="col-6 p-5">
                         Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                     </div>
                 </div>
-                <button>Download</button>
+
+                <p class="text-center">
+                    <button >Download</button>
+                </p>
+                
             </div>
         </section>
 
