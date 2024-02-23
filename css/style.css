@@ -5,3 +5,29 @@ ol,
 menu{
     list-style: none;
 }
+
+input {
+    all: unset;
+    }
+
+.anchor{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header-page{
+    background-color: #2c3e50;
+}
+
+.hero{
+    background-color: #1abc9c;
+}
+
+.about{
+    background-color: #1abc9c;
+}
+
+.footer-page{
+    background: rgb(44,62,80);
+    background: linear-gradient(0deg, rgba(44,62,80,1) 29%, rgba(58,84,109,1) 29%);;
+}

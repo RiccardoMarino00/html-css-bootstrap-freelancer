@@ -9,15 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="bg-dark text-light">
+    <section class=" text-light py-2 header-page">
         <header>
-            <div class="container">
+            <div class="container align-middle pt-2">
                 <div class="row d-flex justify-content-between">
                     <div class="col-auto">START BOOTSTRAP</div>
                     <ul class="col-auto">
-                        <li class="d-none d-md-inline-block">PORTFOLIO</li>
-                        <li class="d-none d-md-inline-block">ABOUT</li>
-                        <li class="d-none d-md-inline-block">CONTACT</li>
+                        <li class="d-none d-md-inline-block px-2"><a class="anchor" href="#">PORTFOLIO</a></li>
+                        <li class="d-none d-md-inline-block px-2"><a class="anchor" href="#">ABOUT</a></li>
+                        <li class="d-none d-md-inline-block px-2"><a class="anchor" href="#">CONTACT</a></li>
                         <li class="d-md-none"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
                     </ul>
                 </div>
@@ -27,54 +27,56 @@
     
 
     <main>
-        <section class="bg-success text-light">
-            <div class="container">
-                <div class="row ">
+        <section class=" hero  text-light py-5">
+            <div class="container text-center">
                     <img src="./img/avatar.svg" alt="" height="200px">
-                    <h1 class="text-center">START BOOTSTRAP</h1>
-                    <p class="text-center">
+                    <h1>START BOOTSTRAP</h1>
+                    <p>
                         <i class="fa-solid fa-star"></i>
                     </p>
                     <p class="text-center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-                </div>
             </div>
         </section>
 
-        <section>
+        <section class="portfolio py-5">
             <div class="container">
                 <h2 class="text-center">PORTFOLIO</h2>
                 <p class="text-center">
                     <i class="fa-solid fa-star"></i>
                 </p>
-                <div class="row">
-                   <div class="col col-md-6 col-lg-4">
-                     <img src="./img/cabin.png" alt="" width="400px" class="rounded">
-                   </div>
-    
-                   <div class="col col-md-6 col-lg-4">
-                     <img src="./img/cake.png" alt="" width="400px" class="rounded">
-                   </div>
-    
-                   <div class="col col-md-6 col-lg-4">
-                    <img src="./img/circus.png" alt="" width="400px" class="rounded">
-                   </div>
-    
-                   <div class="col col-md-6 col-lg-4">
-                    <img src="./img/game.png" alt="" width="400px" class="rounded">
-                   </div>
-    
-                   <div class="col col-md-6 col-lg-4">
-                    <img src="./img/safe.png" alt="" width="400px" class="rounded">
-                   </div>
-    
-                   <div class="col col-md-6 col-lg-4">
-                    <img src="./img/submarine.png" alt="" width="400px" class="rounded">
-                   </div>
-                </div>
-            </div>  
+            </div>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-auto col-md-6 col-lg-4 ">
+                      <img src="./img/cabin.png" alt="" width="400px" class="rounded">
+                    </div>
+     
+                    <div class="col-auto col-md-6 col-lg-4 ">
+                      <img src="./img/cake.png" alt="" width="400px" class="rounded">
+                    </div>
+     
+                    <div class="col-auto col-md-6 col-lg-4">
+                     <img src="./img/circus.png" alt="" width="400px" class="rounded">
+                    </div>
+     
+                    <div class="col-auto col-md-6 col-lg-4 pb-5 ">
+                     <img src="./img/game.png" alt="" width="400px" class="rounded">
+                    </div>
+     
+                    <div class="col-auto col-md-6 col-lg-4 pb-5 ">
+                     <img src="./img/safe.png" alt="" width="400px" class="rounded">
+                    </div>
+     
+                    <div class="col-auto col-md-6 col-lg-4 ">
+                     <img src="./img/submarine.png" alt="" width="400px" class="rounded">
+                    </div>
+                 </div>
+            </div>
+                
+              
         </section>
 
-        <section class="bg-success">
+        <section class="about  py-5">
             <div class="container">
                 <h2 class="text-center">ABOUT</h2>
                 <p class="text-center">
@@ -96,45 +98,47 @@
             </div>
         </section>
 
-        <section>
+        <section class="contact py-5">
             <div class="container">
                 <h2 class="text-center">CONTACT ME</h2>
                 <p class="text-center">
                     <i class="fa-solid fa-star"></i>
                 </p>
-                <div class="row"></div>
-                <ul>
-                    <li >Name</li>
-                    <li>Email address</li>
-                    <li>Phone number</li>
-                    <li>Message</li>
-                    <li><button>Send</button></li>
-                </ul>
+                <form action="" method="POST">
+                    <ul class="">
+                        <li><input type="text" id="name" placeholder="Name" class="d-block border-bottom py-2" style="width: 100%;"></li>
+                        <li><input type="text" id="emai-address" placeholder="Email Address" class="d-block border-bottom py-2" style="width: 100%;"></li>
+                        <li><input type="text" id="phone-number" placeholder="Phone Number" class="d-block border-bottom py-2" style="width: 100%;"></li>
+                        <li><input type="text" id="Message" placeholder="Message" class="d-block border-bottom py-2" style="width: 100%;"></li>
+    
+                    </ul>
+                </form>
+                
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer-page py-5 text-light">
         <div class="container">
             <div class="row">
-                <h3 class="col-4">LOCATION</h3>
-                <h3 class="col-4">AROUND THE WEB</h3>
-                <h3 class="col-4">ABOUT FREELANCER</h3>
+                <h3 class="col-12 col-md-4">LOCATION</h3>
+                <h3 class="col-12 col-md-4">AROUND THE WEB</h3>
+                <h3 class="col-12 col-md-4">ABOUT FREELANCER</h3>
             </div>
 
             <div class="row">
-                <p class="col-4">2215 John Daniel Drive Clark, MO 54243</p>
-                <ul class="col-4 d-flex">
+                <p class="col-12 col-md-4">2215 John Daniel Drive Clark, MO 54243</p>
+                <ul class="col-12 col-md-4 d-flex">
                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
 
-                <p class="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ab velit? Explicabo, ex maiores!</p>
+                <p class="col-12 col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ab velit? Explicabo, ex maiores!</p>
             </div>
 
-            <p class="text-center">Copyright <i class="fa-regular fa-copyright"></i> Your Webiste 2019</p>
+            <p class="text-center py-5">Copyright <i class="fa-regular fa-copyright"></i> Your Webiste 2019</p>
         </div>
     </footer>
 </body>
